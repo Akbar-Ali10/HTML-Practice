@@ -1,0 +1,48 @@
+nav {
+    text-align: center;
+    /* margin-top: 40px; */
+    background-color: aqua;
+    padding: 50px;
+    /* margin: 50px; */
+    
+    
+}
+nav a{
+    margin-right: 30px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: brown;
+    transition: all 0.8s;
+
+}
+.section-1{
+    background-image: url(./1.webp);
+    min-height: 500px;
+    background-attachment: fixed;
+}
+.section-2{
+    background-image: url(./2.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+
+
+}
+.section-3{
+    background-image: url(./3.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+  
+
+}
+.section-1,.section-2,.section-3 p{
+    color: white;
+    font-size: 30px;
+    padding: 200px 50px 50px 50px;
+    
+
+}
